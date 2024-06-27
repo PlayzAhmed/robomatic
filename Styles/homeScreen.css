@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Indie+Flower&family=Schoolbell&display=swap');
+
+* {
+    font-family: 'Indie Flower', cursive;
+    cursor: default;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-shape-divider-top-1702331153 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1702331153 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 99px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1702331153 .shape-fill {
+    fill: #e3f4fc;
+}
+
+.sec-1 {
+    background: url(../Images/homeScreen1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 10px;
+    min-height: 170vh;
+    max-height: 170vh;
+    padding-top: 120px;
+}
+
+.edu {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    color: red;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.learn {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.learnmore {
+    padding-bottom: 5%;
+}
+
+.startBtn {
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 200px;
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(107, 107, 237);
+    border-color: beige;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-display: flex;
+    transition: all 0.5s ease;  
+}
+
+.startBtn:hover {
+    color: rgb(107, 107, 237);
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.sec1 {
+    background: url(../Images/homeScreen2.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    padding-top: 70px;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 90px;
+    align-items: center;
+    padding-left: 4.5%;
+    padding-bottom: 8%;
+}
+
+.card1 {
+    background-color: rgb(0, 191, 0);
+    height: 425px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.card2 {
+    background-color: yellow;
+    height: 425px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.card3 {
+    background-color: cyan;
+    height: 425px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.card4 {
+    background-color: red;
+    height: 425px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+.title1 {
+    padding-top: 30px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.paragraph1 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+
+}

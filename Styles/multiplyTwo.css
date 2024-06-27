@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Indie+Flower&family=Schoolbell&display=swap');
+
+.custom-shape-divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    overflow: hidden;
+    line-height: 0;
+    padding-top: 30px;
+    padding-left: 305px;
+}
+
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 207px;
+}
+
+.custom-shape-divider-top .shape-fill {
+    fill: #009672;
+}
+
+.home.active {
+    margin-left: 200px;
+}
+
+.home::-webkit-scrollbar {
+    display: none;
+}
+
+.home {
+    padding-top: 60px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../Images/background.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: .5s ease;
+}
+
+.home-content {
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(46, 45, 45);
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+}
+
+.home-content h1 {
+    font-size: 64px;
+    text-align: center;
+    color: #009672;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.section1 h1 {
+    padding-top: 70px;
+    padding-bottom: 6%;
+}
+
+.home-content h2 {
+    font-size: 40px;
+    text-align: left;
+    color: #226999;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.home-content h3 {
+    font-size: 35px;
+    color: #009672;
+    text-align: left;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.home-content span {
+    font-weight: bolder;
+    color: #226999;
+}
+
+.home-content span1 {
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #00c194;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    padding: 5px;
+    color: white;
+    transition: all .5s ease;
+}
+
+.buttons button:hover {
+    background-color: #008b6a;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all .5s ease;
+}
+
+.photo1 {
+    width: 700px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.image p1 {
+    padding-top: 100px;
+}

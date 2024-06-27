@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Indie+Flower&family=Schoolbell&display=swap');
+
+header {
+    background: linear-gradient(to top, transparent, rgba(219, 219, 219, 0.2)) !important;
+}
+
+nav a {
+    color: cornsilk !important;
+}
+
+nav a:hover {
+    color: #009672 !important;
+}
+
+.home {
+    background-image: url(../Images/maths3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+.home-content {
+    text-align: center;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.titleHeader {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    color: cornsilk;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1 {
+    height: 150px;
+    width: 190px;
+    border-radius: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(rgba(75, 75, 75, 0.2), rgba(75, 75, 75, 0.2)), url(../Images/add\,sub.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card1:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.card2 {
+    height: 150px;
+    width: 190px;
+    border-radius: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(rgba(75, 75, 75, 0.2), rgba(75, 75, 75, 0.2)), url(../Images/multiply.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card2:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.card3 {
+    height: 150px;
+    width: 190px;
+    border-radius: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(rgba(75, 75, 75, 0.2), rgba(75, 75, 75, 0.2)), url(../Images/p0by5npt.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card3:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.card4 {
+    height: 150px;
+    width: 190px;
+    border-radius: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-image: linear-gradient(rgba(75, 75, 75, 0.2), rgba(75, 75, 75, 0.2)), url(../Images/all.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.cards .title {
+    font-size: 1.8em;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10px;
+}
+
+.card4 .title {
+    width: 170px;
+}

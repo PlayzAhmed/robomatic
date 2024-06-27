@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&display=swap');
+
+header {
+    background: transparent !important;
+}
+
+.home-content {
+    background-image: url(../Images/maths25.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: 'Indie Flower', cursive;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 6px 20px rgb(0, 0, 0);
+    cursor: default;
+}
+
+.flashcards {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+
+}
+
+.flashcards .a {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.flashcards a {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.9em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(101, 101, 101);
+    border-radius: 15px;
+    width: 400px;
+    transition: all .5s ease;
+}
+
+.flashcards a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(254, 194, 42);
+    transition: all .5s ease;
+    transform: scale(1.03);
+}
+
+.flashcards1,
+.flashcards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flashcards1 div,
+.flashcards2 div {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(101, 101, 101);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.flashcards1 div:hover,
+.flashcards2 div:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(254, 194, 42);
+    transition: all .5s ease;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.flashcards1 .title1,
+.flashcards2 .title1 {
+    font-size: 40px;
+    text-align: center;
+}

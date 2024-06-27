@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Indie+Flower&family=Schoolbell&display=swap');
+
+
+.home {
+    background: url("../Images/smash2.jpg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.home-content {
+    padding-top: 130px;
+    text-align: center;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Bubble Gum', cursive;
+}
+
+.quiz {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+}
+
+.quiz-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.quiz-content .title {
+    font-size: 44px;
+    font-weight: 700;
+    text-shadow: 5px 6px 20px rgb(0, 0, 0);
+    position: relative;
+    bottom: 95px;
+}
+
+.headerQuiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quiz-content .left {
+    padding-right: 70px;
+    font-weight: 650;
+    font-size: 20px;
+    text-align: left;
+    cursor: default;
+}
+
+.quiz-content .score {
+    font-weight: 650;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 80px;
+    cursor: default;
+}
+
+.quiz-content .question {
+    font-size: 24px;
+    font-weight: 700;   
+    width: 900px;
+    height: auto;
+    margin: auto;
+    cursor: default;
+}
+
+.quiz-content .input-box {
+    position: relative;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.quiz-content .input {
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    font-size: 1em;
+    color: rgb(44, 44, 44);
+    transition: 0.5s;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Bubble Gum', cursive;
+}
+
+.btn {
+    padding-right: 7%;
+    padding-top: 15%;
+    text-align: end;
+}
+
+.btn.active {
+    padding-top: 140px;
+}
+
+.next {
+    background-color: greenyellow;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.next:hover {
+    background-color: rgb(255, 255, 255);
+    color: greenyellow;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.quiz-content .question.active {
+    display: none;
+    transition: all .5s ease;
+}
+
+.quiz-content .input-box.active {
+    display: none;
+    transition: all .5s ease;
+}
+
+.quiz-content .score.active {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-size: 80px;
+    transition: all .5s ease;
+}
+
+.char {
+    height: 300px;
+    position: absolute;
+    right: 200%;
+    padding-bottom: 12%;
+    opacity: 0;
+    transition: right 0.5s ease;
+}
+
+.char.active {
+    opacity: 1;
+    position: absolute;
+    right: 75%;
+}

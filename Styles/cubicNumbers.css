@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Indie+Flower&family=Schoolbell&display=swap');
+
+.home.active {
+    margin-left: 200px;
+}
+
+.home::-webkit-scrollbar {
+    display: none;
+}
+
+.home {
+    padding-top: 60px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../Images/background.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: .5s ease;
+}
+
+.home-content {
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(46, 45, 45);
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+}
+
+.home-content h1 {
+    font-size: 64px;
+    text-align: center;
+    color: #009672;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.section0 h1 {
+    padding-top: 70px;
+    padding-bottom: 6%;
+}
+
+.home-content h2 {
+    font-size: 40px;
+    text-align: left;
+    color: #226999;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.home-content h3 {
+    font-size: 35px;
+    color: #009672;
+    text-align: left;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.home-content span {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #226999;
+}
+.home-content span1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+.check {
+    background: url(../Images/frame.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+.check-content {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+}
+
+.check-content h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.check-content h4 {
+    font-size: 30px;
+    color: #009672;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.check-content input{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    line-height: 80px;
+    border: 2px solid #009672;
+    background: transparent; 
+    font-weight: bolder;
+    z-index: 1;
+    text-align: center;
+}
+
+.check-content input:focus::placeholder {
+    color: transparent; 
+}
+
+.check-content p {
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
+
+.check-content span {
+    font-size: 20px;
+    color: #3d95d0;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.check-content .inputbox {
+    padding-top: 50px;
+    
+}
+
+.course {
+    text-align: center;
+}
+
+.course p {
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(45deg, #FF3C8C, #FF8E53, #FFE53B, #6BF178, #42A5F5, #7E57C2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbowAnimation 5s linear infinite; /* Adjust duration as needed */
+  }
+  
+  @keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+.course img {
+    width: 300px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #00c194;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    padding: 5px;
+    color: white;
+    transition: all .5s ease;
+}
+
+.buttons button:hover {
+    background-color: #008b6a;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all .5s ease;
+}
+
+@keyframes robotAppearAnimation {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.char {
+    position: fixed;
+    top: 100%;
+    right: 100%;
+    rotate: 30deg;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.char.active {
+    visibility: visible;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    opacity: 1;
+    top: 40%;
+    right: 80%;
+    rotate: 30deg;
+    transform: translateX(-50%);
+    animation: robotAppearAnimation 2s forwards;
+}

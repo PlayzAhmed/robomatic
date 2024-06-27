@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Indie+Flower&family=Schoolbell&display=swap');
+
+* {
+    font-family: 'Indie Flower', cursive;
+    cursor: default;
+}
+
+body {
+    background: url(../Images/background.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: auto;
+    overflow: hidden;
+}
+
+.home {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.home img { 
+    width: 250px;
+    height: auto;
+    position: fixed;
+    bottom: 70px;
+    right: 1400px;
+    transform: rotate(25deg);
+}
+
+.box {
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    width: 150px;
+    height: 40px;
+    background-color: #009672;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-shadow: 1px -1px rgba(0, 0, 0, 0.5), -1px -1px rgba(0, 0, 0, 0.5), -1px 1px rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background-color: #027e61;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.box a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.plan {
+    display: inline-block;
+    align-items: center;
+    padding-top: 15px;
+    border: 2px solid; 
+    width: 400px;
+    height: 170px;
+}
+
+.plan h1 {
+    font-family: 'Bubblegum Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+.plan div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 95px;
+}
+
+.plan p2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.plan i {
+    padding-right: 5px;
+    font-size: 8px;
+    position: relative;
+    bottom: 3px;
+    font-weight: 501;
+}
